@@ -1,6 +1,9 @@
-from create_bot import dp
+from env import create_bot
+from aiogram import types
 from keyboards.keyboard import kb
 from get_weater.config import api_key
+
+dp = create_bot.dp
 
 @dp.message_handler(commands=['start'])
 async def cmd_srart(message: types.Message):
@@ -11,13 +14,13 @@ async def cmd_srart(message: types.Message):
 
 @dp.message_handler(commands=['Список_команд'])
 async def cmd_list(message: types.Message):
-    await message.answer(comands_list)
+    await message.answer('comands_list')
     await message.delete()
 
 @dp.message_handler(commands=['Показать_погоду'])
 async def start_command(message: types.Message):
-    get_weather(api_key)
-    await message.answer(WEATHER)
+    get_weather('lipetsk')
+    await message.answer('WEATHER')
 
 
 @dp.message_handler(commands=['map'])
