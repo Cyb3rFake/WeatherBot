@@ -1,6 +1,6 @@
-from aiogram import Dispatcher as dp, types
+from create_bot import dp
 from keyboards.keyboard import kb
-from get_weater.config import TOKEN_BOT as api_key
+from get_weater.config import api_key
 
 @dp.message_handler(commands=['start'])
 async def cmd_srart(message: types.Message):
