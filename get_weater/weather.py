@@ -1,9 +1,6 @@
 import requests
 import datetime
 import config
-import json
-from pprint import pprint
-
 
 def get_weather(city_, api_key=config.api_key):
     try:
@@ -52,7 +49,7 @@ def get_coords(city_, api_key=config.api_key):
 
 
 
-
+# print(get_coords('moskva'))
 
 
 
