@@ -12,9 +12,4 @@ commands_list = "/map - получить положение города на к
 async def on_startup(_):
     print('Бот онлайн')
 
-#
-# @dp.message_handler()
-# async def say_hi(message: types.Message):
-#     await message.answer(message.text)
-
 executor.start_polling(dp, skip_updates=True, on_startup=on_startup)
