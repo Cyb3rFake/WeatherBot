@@ -1,22 +1,22 @@
 {
    "data": [
       {
-         "name": "Залупа",
+         "name": "User_1",
          "id": 147513,
          "city": "moskva"
       },
       {
-         "name": "Хуй",
+         "name": "User_2",
          "id": 450514,
          "city": "tambov"
       },
       {
-         "name": "Хуй",
+         "name": "User_3",
          "id": 720709,
          "city": "moskva"
       },
       {
-         "name": "Жопа",
+         "name": "User_4",
          "id": 269886,
          "city": "tambov"
       },
@@ -26,14 +26,14 @@
          "city": "tambov"
       },
       {
-         "name": "Хуй",
+         "name": "User_6",
          "id": 795094,
          "city": "voronegh"
       },
       {
-         "name": "Вася_хуем_красит",
-         "id": "ебать_05",
-         "city": "Сити_хуй_сосите"
+         "name": "User_18",
+         "id": "393211",
+         "city": "vologda"
       }
    ]
 }
